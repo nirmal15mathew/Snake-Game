@@ -19,6 +19,7 @@ var gameboard;
 var player_score;
 function setup (){
   createCanvas(windowWidth, windowHeight);
+  window.scrollTo(0,document.body.scrollHeight)
   snake = new Snake();
   apple = new Apple();
   pause = createButton('II');
