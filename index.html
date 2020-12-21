@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="snake.js"></script>
+    <script src="apple.js"></script>
+    <script src="p5.js"></script>
+    <script src="script.js"></script>
+    <title></title>
+    <style>
+      body{
+        border: 0;
+        padding: 0;
+        margin: 0;
+      }
+      .play{
+          background: rgba(240, 10, 10, 0.99);
+          border-radius: 5px;
+          border: none;
+          color: rgba(190, 5,5);
+          height: 75px;
+          width: 200px;
+          outline: none;
+          font-size: 25px;
+          font-weight:1000;
+          box-shadow: 0 0 5px 0 rgb(51);
+          animation: grow 1s infinite;
+      }
+      .play:active{
+        background: rgba(190, 5,5);
+        color: rgba(240, 10, 10, 0.99);
+      }
+      .chall{
+        background: rgba(10, 240, 10, 0.99);
+        border-radius: 5px;
+        border: none;
+        color: rgba(5, 190,5);
+        height: 75px;
+        width: 200px;
+        outline: none;
+        font-size: 25px;
+        font-weight:1000;
+        box-shadow: 0 0 5px 0 rgb(51);
+      }
+      .chall:active{
+        background: rgba(5, 190, 5);
+        color: rgba(10, 240, 10, 0.99);
+      }
+      .settings{
+        height: 30px;
+        width: 30px;
+        background: rgba(30, 30, 30, 0.7);
+        border: none;
+        outline: none;
+      }
+      @keyframes grow{
+        0%{transform: scale(1)}
+        50%{transform: scale(0.9)}
+        100%{transform: scale(1)}
+      }
+    </style>
+</head>
+
+<body>
+
+</body>
+
+</html>
