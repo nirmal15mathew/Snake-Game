@@ -1,0 +1,45 @@
+body {
+    font-size: 15pt;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    overflow: hidden;
+}
+button{
+  transition: 0.5s;
+  height: 50px;
+  width: 50px;
+  background-position: center;
+  background: rgba(51, 51, 51, 0.001);
+  background-size: contain;
+  opacity: 0.8;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-size: 23px;
+}
+button:active{
+  opacity: 1;
+  border: none;
+}
+.menu{
+  height: 300px;
+  width: 300px;
+  color: white;
+  display: none;
+  transition: 0.5s;
+  text-align: center;
+}
+.home{
+  height: 100px;
+  width: 200px;
+  display: none;
+  z-index: 100;
+}
+.game-over{
+  color: white;
+}
+canvas{
+  transition: 0.5s;
+  overflow: hidden;
+}
